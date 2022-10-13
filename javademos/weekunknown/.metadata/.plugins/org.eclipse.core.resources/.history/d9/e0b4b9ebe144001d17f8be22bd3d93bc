@@ -1,0 +1,10 @@
+package oppWithNLayeredApp.business;
+
+import oppWithNLayeredApp.entities.Product;
+
+public class ProductManager {
+	public void add(Product product) { 
+		
+	}
+
+}

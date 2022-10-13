@@ -1,0 +1,29 @@
+package oppWithNLayeredApp.business;
+
+import oppWithNLayeredApp.dataAccess.HibernateProductDao;
+import oppWithNLayeredApp.entities.Product;
+
+
+
+public class ProductManager {
+	private ProductDao productDao;
+	
+	public ProductManager(ProductDao productDao) {
+		
+		this.productDao = productDao;
+	}
+
+	public void add(Product product) throws Exception { 
+		//business rules
+		if(product.getUnitPrice()<10) {
+			throw new Exception("Düzgün fiyat gir it");
+		}
+		
+		
+	//ProductDao productDao = new HibernateProductDao();
+	 productDao.add(product);
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package oppWithNLayeredApp.dataAccess;
+
+public class JdbcProductDao {
+	public void add() {
+		System.out.println("JDBC ile veri tabanına eklendi.");
+	}
+
+}
+
+
+

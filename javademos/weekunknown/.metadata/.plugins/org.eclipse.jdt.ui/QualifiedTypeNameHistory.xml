@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.business.ProductManager"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.entities.Product"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.dataAccess.ProductDao"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.dataAccess.JdbcProductDao"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.dataAccess.HibernateProductDao"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.core.logging.Logger"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.core.logging.FileLogger"/>
+</qualifiedTypeNameHistroy>

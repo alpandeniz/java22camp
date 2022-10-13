@@ -1,0 +1,20 @@
+package oppWithNLayeredApp.business;
+
+import oppWithNLayeredApp.dataAccess.JdbcProductDao;
+import oppWithNLayeredApp.entities.Product;
+
+public class ProductManager {
+	public void add(Product product) throws Exception { 
+		//business rules
+		if(product.getUnitPrice()<10) {
+			throw new Exception("Düzgün fiyat gir it");
+		}
+		
+		
+	 JdbcProductDao productDao = new JdbcProductDao();
+	 productDao.add(product);
+		
+		
+	}
+
+}

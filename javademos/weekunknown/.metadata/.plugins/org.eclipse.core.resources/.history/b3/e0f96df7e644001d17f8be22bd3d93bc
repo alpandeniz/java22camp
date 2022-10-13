@@ -1,0 +1,16 @@
+package oppWithNLayeredApp;
+
+import oppWithNLayeredApp.business.ProductManager;
+import oppWithNLayeredApp.entities.Product;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		Product product1 = new Product(1, "IPhone XR", 9000);
+		
+		ProductManager productManager = new ProductManager();
+		productManager.add(product1);
+	}
+
+}
