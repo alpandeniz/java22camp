@@ -1,7 +1,0 @@
-package oppWithNLayeredApp.dataAccess;
-
-public interface ProductDao {
-	
-	void add();
-
-}

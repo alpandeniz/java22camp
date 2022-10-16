@@ -1,5 +1,0 @@
-package oppWithNLayeredApp.dataAccess;
-
-public class JdbcProductDao {
-
-}

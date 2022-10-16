@@ -1,5 +1,0 @@
-package oppWithNLayeredApp.core.logging;
-
-public class MailLogger {
-
-}
