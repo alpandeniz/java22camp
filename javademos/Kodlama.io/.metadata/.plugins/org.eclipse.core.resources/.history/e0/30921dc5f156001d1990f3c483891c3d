@@ -1,0 +1,58 @@
+package Kodlama.io.Devs.dataAccess.concretes;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import Kodlama.io.Devs.dataAccess.abstracts.LanguageRepository;
+import Kodlama.io.Devs.entities.concretes.Language;
+
+@Repository
+public class InMemoryLanguageRepository implements LanguageRepository {
+	
+	List<Language> languages;
+	Collection<Language> languages2 = new ArrayList<Language>();
+	
+	
+	public InMemoryLanguageRepository() {
+		languages = new ArrayList<Language>();
+		languages.add(new Language(1, "Java"));
+		languages.add(new Language(2, "C#"));
+		languages.add(new Language(3, "Pyhton"))
+		
+	}
+
+	@Override
+	public List<Language> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public void add(Language language) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Language language) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Language language) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Language getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

@@ -1,0 +1,52 @@
+package Kodlama.io.Devs.business.concretes;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import Kodlama.io.Devs.business.abstracts.LanguageService;
+import Kodlama.io.Devs.dataAccess.abstracts.LanguageRepository;
+import Kodlama.io.Devs.entities.concretes.Language;
+
+public class LanguageManager implements LanguageService {
+	
+	private LanguageRepository languageRepository;
+	
+	@Autowired 
+	public LanguageManager(LanguageRepository languageRepository) {
+		this.languageRepository = languageRepository;
+	}
+
+	@Override
+	public void add(Language language) throws Exception {
+		if(language.getName().isBlank()) {
+			throw new Exception("Programlama dili boş bırakılamaz.");
+		}
+		
+	}
+
+	@Override
+	public void delete(int id) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Language language) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Language> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Language getLanguageById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

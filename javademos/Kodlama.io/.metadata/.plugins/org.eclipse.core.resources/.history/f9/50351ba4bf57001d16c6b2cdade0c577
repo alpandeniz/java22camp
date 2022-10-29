@@ -1,0 +1,8 @@
+package Kodlama.io.Devs.webApi;
+
+
+@RestController
+@RequestMapping("/api/languages")
+public class LanguagesController {
+
+}

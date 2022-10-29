@@ -1,0 +1,16 @@
+package Kodlama.io.Devs.dataAccess.abstracts;
+
+import java.util.List;
+
+import Kodlama.io.Devs.entities.concretes.Language;
+
+public interface LanguageRepository {
+	
+	List<Language> getList();
+	void add(Language language) throws Exception;
+	void delete(Language language);
+	void update(Language language) throws Exception;
+	Language getById(int id);
+
+	
+}

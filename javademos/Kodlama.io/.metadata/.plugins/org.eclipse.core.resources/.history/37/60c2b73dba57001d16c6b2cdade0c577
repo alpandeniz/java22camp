@@ -1,0 +1,9 @@
+package Kodlama.io.Devs.business.abstracts;
+
+import Kodlama.io.Devs.entities.concretes.Language;
+
+public interface LanguageService {
+	
+	void add(Language language) throws Exception;
+
+}
