@@ -1,0 +1,14 @@
+package Kodlama.io.devs2.business.responses.languageResponses;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class GetAllLanguageResponse {
+	private String name;
+
+}

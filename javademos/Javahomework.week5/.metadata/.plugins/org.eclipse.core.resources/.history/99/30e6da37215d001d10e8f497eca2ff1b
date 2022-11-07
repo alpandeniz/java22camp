@@ -1,0 +1,5 @@
+package Kodlama.io.devs2.business.requests;
+
+public class DeleteTechnologyRequest {
+
+}

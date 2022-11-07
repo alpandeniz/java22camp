@@ -1,0 +1,5 @@
+package Kodlama.io.devs2.dataAccess;
+
+public interface TechnologyRepository {
+
+}

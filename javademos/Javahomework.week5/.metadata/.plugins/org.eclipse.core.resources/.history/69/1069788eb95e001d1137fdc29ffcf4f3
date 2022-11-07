@@ -1,0 +1,49 @@
+package Kodlama.io.devs2.business.concretes;
+
+import java.util.List;
+
+import Kodlama.io.devs2.business.abstracts.TechnologyService;
+import Kodlama.io.devs2.business.requests.CrateTechnologyRequest;
+import Kodlama.io.devs2.business.requests.DeleteTechnologyRequest;
+import Kodlama.io.devs2.business.requests.UpdateTechnologyRequest;
+import Kodlama.io.devs2.business.responses.technologyResponses.GetAllTechnologyResponse;
+import Kodlama.io.devs2.dataAccess.LanguageRepository;
+import Kodlama.io.devs2.dataAccess.TechnologyRepository;
+
+public class TechnologyManager implements TechnologyService {
+	private TechnologyRepository technologyRespository;
+	private LanguageRepository languageRespository;
+	
+	
+
+	public TechnologyManager(TechnologyRepository technologyRespository, LanguageRepository languageRespository) {
+		
+		this.technologyRespository = technologyRespository;
+		this.languageRespository = languageRespository;
+	}
+
+	@Override
+	public List<GetAllTechnologyResponse> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void add(CrateTechnologyRequest createTechnologyRequest) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(DeleteTechnologyRequest deleteTechnologyRequest) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(UpdateTechnologyRequest updateTechnologyRequest) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

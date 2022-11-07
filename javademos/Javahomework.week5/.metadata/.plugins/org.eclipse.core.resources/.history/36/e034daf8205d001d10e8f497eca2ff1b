@@ -1,0 +1,11 @@
+package Kodlama.io.devs2.business.abstracts;
+
+import java.util.List;
+
+public interface LanguageService {
+	List<GetAllLanguageResponse> getAll();
+	GetByIdProgrammingLanguageResponse getById(int id);
+	void add(CreateLanguageRequest createLanguageRequest); 
+	
+
+}

@@ -1,0 +1,15 @@
+package Kodlama.io.devs2.business.abstracts;
+
+import java.util.List;
+
+import Kodlama.io.devs2.business.requests.CrateTechnologyRequest;
+import Kodlama.io.devs2.business.requests.DeleteTechnologyRequest;
+import Kodlama.io.devs2.business.requests.UpdateTechnologyRequest;
+import Kodlama.io.devs2.business.responses.technologyResponses.GetAllTechnologyResponse;
+
+public interface TechnologyService {
+	List<GetAllTechnologyResponse> getAll();
+	void add(CrateTechnologyRequest createTechnologyRequest);
+	void delete(DeleteTechnologyRequest deleteTechnologyRequest);
+	void update(UpdateTechnologyRequest updateTechnologyRequest, int id);
+}

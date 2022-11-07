@@ -1,0 +1,27 @@
+package Kodlama.io.devs2.entities.concretes;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+
+import org.springframework.data.annotation.Id;
+
+
+@Entity
+public class Language
+{
+	
+	String name;
+	
+	@Id
+	@Column(name = "id")
+	String id;
+	
+	
+	public Language(String name, String id) {
+	
+		this.name = name;
+		this.id = id;
+	}
+	
+
+}

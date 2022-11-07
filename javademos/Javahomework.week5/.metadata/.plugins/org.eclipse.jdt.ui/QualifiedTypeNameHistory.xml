@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
+    <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.business.abstracts.LanguageService"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.business.requests.DeleteLanguageRequest"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.business.requests.UpdateLanguageRequest"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.business.requests.UpdateTechnologyRequest"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.business.requests.DeleteTechnologyRequest"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.business.responses.languageResponses.GetAllLanguageResponse"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.business.responses.languageResponses.GetByIdLanguageResponse"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.business.requests.CreateLanguageRequest"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.business.abstracts.TechnologyService"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.dataAccess.TechnologyRepository"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.entities.concretes.Technology"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.business.responses.technologyResponses.GetAllTechnologyResponse"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.entities.concretes.Language"/>
+    <fullyQualifiedTypeName name="Kodlama.io.devs2.dataAccess.LanguageRepository"/>
+</qualifiedTypeNameHistroy>

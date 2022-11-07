@@ -1,0 +1,5 @@
+package Kodlama.io.devs2.business.responses.languageResponses;
+
+public class GetAllLanguageResponse {
+
+}

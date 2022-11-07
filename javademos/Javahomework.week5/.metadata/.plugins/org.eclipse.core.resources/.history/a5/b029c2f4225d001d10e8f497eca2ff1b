@@ -1,0 +1,6 @@
+package Kodlama.io.devs2.business.abstracts;
+
+public interface TechnologyService {
+	List<GetAllResponse> getAll();
+
+}
